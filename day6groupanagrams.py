@@ -18,6 +18,5 @@ def main():
     print(foo.groupAnagrams(strs))
 
 
-
 if __name__ == "__main__":
     main()

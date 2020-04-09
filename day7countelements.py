@@ -15,10 +15,9 @@ class Solution(object):
 
         if len(sarr) < 2:
             return c
-        for i in range(len(sarr)-1):
-            if sarr[i+1] == sarr[i]+1:
-
-                c += d[sarr[i]] # number of times left appears
+        for i in range(len(sarr) - 1):
+            if sarr[i + 1] == sarr[i] + 1:
+                c += d[sarr[i]]  # number of times left appears
 
         # for i in range(len(arr)):
         #     for j in range(len(arr)):
@@ -29,11 +28,8 @@ class Solution(object):
         return c
 
 
-
-
-
 def main():
-    arr = [1,1,2]
+    arr = [1, 1, 2]
 
     foo = Solution()
     print(foo.countElements(arr))
