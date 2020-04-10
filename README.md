@@ -62,3 +62,16 @@ Note: The number of nodes in the given list will be between 1 and 100.
 
 ## Day 9 Backspace String Compare
 Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+
+## Day 10 Min Stack
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+push(x) -- Push element x onto stack.
+
+pop() -- Removes the element on top of the stack.
+
+top() -- Get the top element.
+
+getMin() -- Retrieve the minimum element in the stack.
+
+Consider each node in the stack having a minimum value. (Credits to @aakarshmadhavan)
