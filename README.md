@@ -75,3 +75,10 @@ top() -- Get the top element.
 getMin() -- Retrieve the minimum element in the stack.
 
 Consider each node in the stack having a minimum value. (Credits to @aakarshmadhavan)
+
+## Day 11 Diameter of Binary Tree
+Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
+
+Note: The length of path between two nodes is represented by the number of edges between them.
+
+## Day 12
