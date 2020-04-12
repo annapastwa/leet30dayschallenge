@@ -1,4 +1,5 @@
 # LeetCode 30 days challenge
+https://leetcode.com/discuss/general-discussion/551411/30-day-leetcoding-challenge
 
 ## Day 1 Single Number
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
@@ -44,9 +45,9 @@ Given an array of strings, group anagrams together.
 
 Note:
 
-All inputs will be in lowercase.
+* All inputs will be in lowercase.
 
-The order of your output does not matter.
+* The order of your output does not matter.
 
 ## Day 7 Counting Elements
 Given an integer array arr, count element x such that x + 1 is also in arr.
@@ -81,4 +82,34 @@ Given a binary tree, you need to compute the length of the diameter of the tree.
 
 Note: The length of path between two nodes is represented by the number of edges between them.
 
-## Day 12
+## Day 12 Last Stone Weight
+We have a collection of stones, each stone has a positive integer weight.
+
+Each turn, we choose the two heaviest stones and smash them together.  Suppose the stones have weights x and y with x <= y.  The result of this smash is:
+* If x == y, both stones are totally destroyed;
+* If x != y, the stone of weight x is totally destroyed, and the stone of weight y has new weight y-x.
+
+At the end, there is at most 1 stone left.  Return the weight of this stone (or 0 if there are no stones left.)
+
+Note:
+1. 1 <= stones.length <= 30
+2. 1 <= stones[i] <= 1000
+
+## Day 13
+## Day 14
+## Day 15
+## Day 16
+## Day 17
+## Day 18
+## Day 19
+## Day 20
+## Day 21
+## Day 22
+## Day 23
+## Day 24
+## Day 25
+## Day 26
+## Day 27
+## Day 28
+## Day 29
+## Day 30

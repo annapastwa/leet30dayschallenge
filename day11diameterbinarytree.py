@@ -13,6 +13,7 @@ class Solution(object):
         """
         if root is None:
             return 0
+
         diam = self.maxDepth(root.left) + self.maxDepth(root.right)
         return max(diam, max(self.diameterOfBinaryTree(root.left), self.diameterOfBinaryTree(root.right)))
 
