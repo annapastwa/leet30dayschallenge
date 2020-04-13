@@ -95,7 +95,11 @@ Note:
 1. 1 <= stones.length <= 30
 2. 1 <= stones[i] <= 1000
 
-## Day 13
+## Day 13 Contiguous Array
+Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+
+Note: The length of the given binary array will not exceed 50,000.
+
 ## Day 14
 ## Day 15
 ## Day 16
