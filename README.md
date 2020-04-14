@@ -100,7 +100,30 @@ Given a binary array, find the maximum length of a contiguous subarray with equa
 
 Note: The length of the given binary array will not exceed 50,000.
 
-## Day 14
+## Day 14 Perform String Shifts
+You are given a string s containing lowercase English letters, and a matrix shift, where shift[i] = [direction, amount]:
+
+* direction can be 0 (for left shift) or 1 (for right shift). 
+* amount is the amount by which string s is to be shifted.
+* A left shift by 1 means remove the first character of s and append it to the end.
+* Similarly, a right shift by 1 means remove the last character of s and add it to the beginning.
+
+Return the final string after all operations.
+
+Constraints:
+
+* 1 <= s.length <= 100
+* s only contains lower case English letters.
+* 1 <= shift.length <= 100
+* shift[i].length == 2
+* 0 <= shift[i][0] <= 1
+* 0 <= shift[i][1] <= 100
+
+Hint #1  
+Intuitively performing all shift operations is acceptable due to the constraints.
+
+Hint #2  
+You may notice that left shift cancels the right shift, so count the total left shift times (may be negative if the final result is right shift), and perform it once.
 ## Day 15
 ## Day 16
 ## Day 17
