@@ -141,7 +141,17 @@ Note: Please solve it without division and in O(n).
 Follow up:
 Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
 
-## Day 16
+## Day 16 Valid Parenthesis String
+Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
+
+1. Any left parenthesis '(' must have a corresponding right parenthesis ')'.
+2. Any right parenthesis ')' must have a corresponding left parenthesis '('.
+3. Left parenthesis '(' must go before the corresponding right parenthesis ')'.
+4. '*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string.
+5. An empty string is also valid.
+
+Note: The string size will be in the range [1, 100].
+
 ## Day 17
 ## Day 18
 ## Day 19
