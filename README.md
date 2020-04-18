@@ -152,8 +152,17 @@ Given a string containing only three types of characters: '(', ')' and '*', writ
 
 Note: The string size will be in the range [1, 100].
 
-## Day 17
-## Day 18
+## Day 17 Number of Islands
+Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. 
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. 
+You may assume all four edges of the grid are all surrounded by water.
+
+## Day 18 Minimum Path Sum
+Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which 
+minimizes the sum of all numbers along its path.
+
+Note: You can only move either down or right at any point in time.
+
 ## Day 19
 ## Day 20
 ## Day 21
