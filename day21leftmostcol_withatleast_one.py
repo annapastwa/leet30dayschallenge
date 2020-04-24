@@ -57,3 +57,19 @@ matrix1 = [[1, 1, 1, 1, 1],
 matrix2 = [[0, 0, 0, 1],
            [0, 0, 1, 1],
            [0, 1, 1, 1]]
+
+# Alternative solution
+# class Solution(object):
+#     def leftMostColumnWithOne(self, binaryMatrix):
+#         """
+#         :type binaryMatrix: BinaryMatrix
+#         :rtype: int
+#         """
+#         res, (m, n) = -1, binaryMatrix.dimensions()
+#
+#         for i in range(m):
+#             for j in range(res % n, -1, -1):
+#                 if binaryMatrix.get(i, j): res = j
+#                 else: break
+#
+#         return res

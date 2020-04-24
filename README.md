@@ -163,12 +163,90 @@ minimizes the sum of all numbers along its path.
 
 Note: You can only move either down or right at any point in time.
 
-## Day 19
+## Day 19 Search in Rotated Sorted Array
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
+
+You are given a target value to search. If found in the array return its index, otherwise return -1.
+
+You may assume no duplicate exists in the array.
+
+Your algorithm's runtime complexity must be in the order of O(log n).
+
 ## Day 20
-## Day 21
-## Day 22
-## Day 23
-## Day 24
+## Day 21 Leftmost Column with at Least a One
+(This problem is an interactive problem.)
+
+A binary matrix means that all elements are 0 or 1. For each individual row of the matrix, this row is sorted in non-decreasing order.
+
+Given a row-sorted binary matrix binaryMatrix, return leftmost column index(0-indexed) with at least a 1 in it. If such index doesn't exist, return -1.
+
+You can't access the Binary Matrix directly.  You may only access the matrix using a BinaryMatrix interface:
+
+* BinaryMatrix.get(x, y) returns the element of the matrix at index (x, y) (0-indexed).
+* BinaryMatrix.dimensions() returns a list of 2 elements [n, m], which means the matrix is n * m.
+
+Submissions making more than 1000 calls to BinaryMatrix.get will be judged Wrong Answer.  Also, any solutions that attempt to circumvent the judge will result in disqualification.
+
+For custom testing purposes you're given the binary matrix mat as input in the following four examples. You will not have access the binary matrix directly.
+
+Constraints:
+* 1 <= mat.length, mat[i].length <= 100
+* mat[i][j] is either 0 or 1.
+* mat[i] is sorted in a non-decreasing way.
+
+Hint #1  
+1. (Binary Search) For each row do a binary search to find the leftmost one on that row and update the answer.
+
+Hint #2  
+2. (Optimal Approach) Imagine there is a pointer p(x, y) starting from top right corner. p can only move left or down. If the value at p is 0, move down. If the value at p is 1, move left. Try to figure out the correctness and time complexity of this algorithm.
+
+## Day 22 Subarray Sum Equals K
+Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+
+Example 1:
+
+Input:nums = [1,1,1], k = 2
+
+Output: 2
+
+Note:
+* The length of the array is in range [1, 20,000].
+* The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
+
+Hint #1  
+Will Brute force work here? Try to optimize it.
+
+Hint #2  
+Can we optimize it by using some extra space?
+
+Hint #3  
+What about storing sum frequencies in a hash table? Will it be useful?
+
+Hint #4  
+sum(i,j)=sum(0,j)-sum(0,i), where sum(i,j) represents the sum of all the elements from index i to j-1. Can we use this property to optimize it.
+
+## Day 23 Bitwise AND of Numbers Range
+Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
+
+Example 1:
+
+Input: [5,7]
+Output: 4
+
+## Day 24 LRU Cache
+Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and put.
+
+get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+
+put(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
+
+The cache is initialized with a positive capacity.
+
+Follow up:
+
+Could you do both operations in O(1) time complexity?
+
 ## Day 25
 ## Day 26
 ## Day 27
