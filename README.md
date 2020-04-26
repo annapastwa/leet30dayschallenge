@@ -247,8 +247,31 @@ Follow up:
 
 Could you do both operations in O(1) time complexity?
 
-## Day 25
-## Day 26
+## Day 25 Jump Game
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+
+Each element in the array represents your maximum jump length at that position.
+
+Determine if you are able to reach the last index.
+
+* Example 1:
+* Input: [2,3,1,1,4]
+* Output: true
+* Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+
+## Day 26 Longest Common Subsequence
+Given two strings text1 and text2, return the length of their longest common subsequence.
+
+A subsequence of a string is a new string generated from the original string with some characters(can be none) deleted without changing the relative order of the remaining characters. (eg, "ace" is a subsequence of "abcde" while "aec" is not). 
+A common subsequence of two strings is a subsequence that is common to both strings.
+
+If there is no common subsequence, return 0.
+
+Constraints:
+* 1 <= text1.length <= 1000
+* 1 <= text2.length <= 1000
+* The input strings consist of lowercase English characters only.
+
 ## Day 27
 ## Day 28
 ## Day 29
