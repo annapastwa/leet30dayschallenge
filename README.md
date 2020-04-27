@@ -272,7 +272,9 @@ Constraints:
 * 1 <= text2.length <= 1000
 * The input strings consist of lowercase English characters only.
 
-## Day 27
+## Day 27 Maximal Square
+Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
+
 ## Day 28
 ## Day 29
 ## Day 30
