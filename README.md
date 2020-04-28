@@ -173,7 +173,15 @@ You may assume no duplicate exists in the array.
 
 Your algorithm's runtime complexity must be in the order of O(log n).
 
-## Day 20
+## Day 20 Construct Binary Search Tree from Preorder Traversal
+Return the root node of a binary search tree that matches the given preorder traversal.
+
+(Recall that a binary search tree is a binary tree where for every node, any descendant of node.left has a value < node.val, and any descendant of node.right has a value > node.val.  Also recall that a preorder traversal displays the value of the node first, then traverses node.left, then traverses node.right.)
+
+Note: 
+* 1 <= preorder.length <= 100
+* The values of preorder are distinct.
+
 ## Day 21 Leftmost Column with at Least a One
 (This problem is an interactive problem.)
 
@@ -275,6 +283,19 @@ Constraints:
 ## Day 27 Maximal Square
 Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
-## Day 28
+## Day 28 First Unique Number
+You have a queue of integers, you need to retrieve the first unique integer in the queue.
+
+Implement the FirstUnique class:
+* FirstUnique(int[] nums) Initializes the object with the numbers in the queue.
+* int showFirstUnique() returns the value of the first unique integer of the queue, and returns -1 if there is no such integer.
+* void add(int value) insert value to the queue.
+ 
+Constraints:
+* 1 <= nums.length <= 10^5
+* 1 <= nums[i] <= 10^8
+* 1 <= value <= 10^8
+* At most 50000 calls will be made to showFirstUnique and add.
+ 
 ## Day 29
 ## Day 30
