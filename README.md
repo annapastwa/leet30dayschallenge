@@ -297,5 +297,10 @@ Constraints:
 * 1 <= value <= 10^8
 * At most 50000 calls will be made to showFirstUnique and add.
  
-## Day 29
+## Day 29 Binary Tree Maximum Path Sum
+Given a non-empty binary tree, find the maximum path sum.
+
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. 
+The path must contain at least one node and does not need to go through the root.
+
 ## Day 30
