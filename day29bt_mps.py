@@ -16,7 +16,7 @@ class Solution(object):
 
         def dfs(node):
             """
-            Returns: max sum of one side path, max sum of path
+            Returns: max sum of one side path, max sum of path.
             :param node: node
             :return: int
             """
