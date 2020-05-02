@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3554afc-32b7-481b-ac17-64f83889d14a" name="Default Changelist" comment="Day 9 completed">
+      <change afterPath="$PROJECT_DIR$/MayLeetcoding/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MayLeetcoding/day2jewelsandstones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +41,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/April30dayschallenge" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day1firstbadversion">
+  <component name="RunManager" selected="Python.day2jewelsandstones">
     <configuration name="day1firstbadversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcodechallenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,28 +68,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day25jumpgame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcodechallenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day25jumpgame.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="day26longest_common_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcodechallenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +81,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day26longest_common_subsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/April30dayschallenge/day26longest_common_subsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +103,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day27maximal_square.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/April30dayschallenge/day27maximal_square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +125,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day28first_unique_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/April30dayschallenge/day28first_unique_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day2jewelsandstones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcodechallenge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MayLeetcoding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MayLeetcoding/day2jewelsandstones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day2jewelsandstones" />
         <item itemvalue="Python.day1firstbadversion" />
         <item itemvalue="Python.day28first_unique_number" />
         <item itemvalue="Python.day27maximal_square" />
         <item itemvalue="Python.day26longest_common_subsequence" />
-        <item itemvalue="Python.day25jumpgame" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +195,7 @@
       <workItem from="1588003949201" duration="18487000" />
       <workItem from="1588145200140" duration="3143000" />
       <workItem from="1588261066554" duration="7898000" />
+      <workItem from="1588405179457" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="Day 9 completed">
       <created>1586459363398</created>
@@ -247,22 +252,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="278" width="432" height="487" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1588101042969" />
-    <state width="1874" height="243" key="GridCell.Tab.0.bottom" timestamp="1588404094845">
+    <state width="1874" height="243" key="GridCell.Tab.0.bottom" timestamp="1588407148297">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588404094845" />
-    <state width="1874" height="243" key="GridCell.Tab.0.center" timestamp="1588404094844">
+    <state width="1874" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588407148297" />
+    <state width="1874" height="243" key="GridCell.Tab.0.center" timestamp="1588407148297">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="243" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588404094844" />
-    <state width="1874" height="243" key="GridCell.Tab.0.left" timestamp="1588404094843">
+    <state width="1874" height="243" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588407148297" />
+    <state width="1874" height="243" key="GridCell.Tab.0.left" timestamp="1588407148296">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="243" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588404094843" />
-    <state width="1874" height="243" key="GridCell.Tab.0.right" timestamp="1588404094845">
+    <state width="1874" height="243" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588407148296" />
+    <state width="1874" height="243" key="GridCell.Tab.0.right" timestamp="1588407148297">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="243" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588404094845" />
+    <state width="1874" height="243" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588407148297" />
     <state width="954" height="314" key="GridCell.Tab.1.bottom" timestamp="1588101044919">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -309,6 +314,7 @@
     <SUITE FILE_PATH="coverage/leetcodechallenge$day19Search_in_Rotated_Sorted_Array.coverage" NAME="day19Search_in_Rotated_Sorted_Array Coverage Results" MODIFIED="1587293157950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcodechallenge$day3maxsubarray.coverage" NAME="day3maxsubarray Coverage Results" MODIFIED="1586027854053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcodechallenge$day12laststoneweight.coverage" NAME="day12laststoneweight Coverage Results" MODIFIED="1586767270845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcodechallenge$day2jewelsandstones.coverage" NAME="day2jewelsandstones Coverage Results" MODIFIED="1588407148281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MayLeetcoding" />
     <SUITE FILE_PATH="coverage/leetcodechallenge$day23bitwise_and_numrange.coverage" NAME="day23bitwise_and_numrange Coverage Results" MODIFIED="1587714855813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcodechallenge$day1firstbadversion.coverage" NAME="day1firstbadversion Coverage Results" MODIFIED="1588351390527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MayLeetcoding" />
     <SUITE FILE_PATH="coverage/leetcodechallenge$day26longest_common_subsequence.coverage" NAME="day26longest_common_subsequence Coverage Results" MODIFIED="1587900612518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
