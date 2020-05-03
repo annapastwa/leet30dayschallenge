@@ -30,3 +30,4 @@ S = "ZZ"
 if __name__ == "__main__":
     foo = Solution()
     print(foo.numJewelsInStones(J, S))
+
