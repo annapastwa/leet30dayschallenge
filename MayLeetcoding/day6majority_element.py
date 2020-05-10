@@ -10,7 +10,7 @@
 # Input: [2,2,1,1,1,2,2]
 # Output: 2
 
-class Solution(object):
+class Solution:
     def majorityElement(self, nums):
         """
         :type nums: List[int]
